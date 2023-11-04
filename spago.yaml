@@ -1,0 +1,30 @@
+package:
+  name: lists
+  dependencies:
+    - bifunctors
+    - control
+    - foldable-traversable
+    - lazy
+    - maybe
+    - newtype
+    - nonempty
+    - partial
+    - prelude
+    - tailrec
+    - tuples
+    - unfoldable
+  test:
+    main: Test.Main
+    dependencies:
+      - arrays
+      - assert
+      - console
+      - minibench
+workspace:
+  backend:
+    cmd: purescm
+    args:
+      - build
+  package_set:
+    url: https://raw.githubusercontent.com/purescm/purescm/29a82675ede61a75c95018e8c104bde5a98a11ad/package-sets/1.0.0.json
+    hash: sha256-9a5BA9bwxZOSEynCePFsR+798LTQUGa4C7mzPbWXMB0=

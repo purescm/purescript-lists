@@ -26,5 +26,5 @@ workspace:
     args:
       - build
   package_set:
-    url: https://raw.githubusercontent.com/purescm/purescm/29a82675ede61a75c95018e8c104bde5a98a11ad/package-sets/1.0.0.json
-    hash: sha256-9a5BA9bwxZOSEynCePFsR+798LTQUGa4C7mzPbWXMB0=
+    url: https://raw.githubusercontent.com/purescm/purescm/87d4155eb0fbed537423b1d0f4e2ccab4bf563bf/package-sets/1.0.0.json
+    hash: sha256-QAW6N5opfzOKMrB91dFabnHLbF1+klM8XO3FVSywLmU=
